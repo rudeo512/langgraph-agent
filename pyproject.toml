@@ -1,0 +1,22 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "고희원",email = "heewon.ko@sktai.io"}
+]
+readme = "README.md"
+package-mode = false
+dependencies = [
+    "langgraph (>=0.2.71,<0.3.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "langgraph-api (>=0.0.31,<0.0.32)",
+    "fastapi (>=0.115.11,<0.116.0)",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
